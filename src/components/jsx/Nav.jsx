@@ -7,10 +7,10 @@ import Portfolio from './Portfolio';
 
 
 const Nav = ({ newPage }) => {
-  const [ currentPage ] = useState('about'); 
+  const [ currentPage, setCurrentPage ] = useState('about'); 
 
   const changePage = (page) => {
-   currentPage(page);
+	setCurrentPage(page);
     newPage(page); 
   };
 
