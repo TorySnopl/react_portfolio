@@ -1,4 +1,4 @@
-import { useState } from 'react';
+
 import { Link } from 'react-scroll';
 import About from './About';
 import Contact from './Contact';
@@ -6,12 +6,9 @@ import Resume from './Resume';
 import Portfolio from './Portfolio';
 
 
-const Nav = ({ newPage }) => {
-  const [ currentPage, setCurrentPage ] = useState('about'); 
-
-  const changePage = (page) => {
-	setCurrentPage(page);
-    newPage(page); 
+const Nav = ({ onPageChange }) => {
+	const changePage = (page) => {
+    onPageChange(page); 
   };
 
   return (
@@ -20,51 +17,51 @@ const Nav = ({ newPage }) => {
        
         <div className='links'>
           <Link
-        to="about"
+        to="About"
         spy={true}
         smooth={true}
         duration={500}
         activeClass="active"
         className="navLink"
-         onClick={() => changePage(About)}
+         onClick={() => changePage('About')}
           >
           Home
 
         </Link>
 
 		<Link
-		to="portfolio"
+		to="ProjectList"
 		spy={true}
 		smooth={true}
 		duration={500}
 		activeClass="active"
         className="navLink"
-		onClick={() => changePage(Portfolio)}
+		onClick={() => changePage('ProjectList')}
 		>
 			Portfolio
 		</Link>
 
 		<Link
-		to="resume"
+		to="Resume"
 		spy={true}
 		smooth={true}
 		duration={500}
 		activeClass="active"
         className="navLink"
-		onClick={() => changePage(Resume)}
+		onClick={() => changePage('Resume')}
         >
 	
 			Resume
 		</Link>
 
 		<Link
-		to="contact"
+		to="Contact"
 		spy={true}
 		smooth={true}
 		duration={500}
 		activeClass="active"
         className="navLink"
-		onClick={() => changePage(Contact)}
+		onClick={() => changePage('Contact')}
 		>
 			Contact
 		</Link>
