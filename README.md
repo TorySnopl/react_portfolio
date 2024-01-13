@@ -52,30 +52,37 @@ A professional looking portfolio built with React
 
 ## Installation
 
-
+No installation is needed. Just go to the deployed app link below.
 
 ## Usage
 
-
-
+This is a react based portfolio witha more professional and sterile feel than my Oregon Trail themed HTML based portfolio.
 
 ## Technologies Used
 
-
-
+- React
+- CSS
+- VITE
 
 ## What I Learned
 
+This is my first attempt at building a website using React. I must admit that it was a challenge to think of the various parts of the site as components of the end product rather than one whole piece. Once I was able to switch into that mindset, I could see the benefit of being able to reuse components without having to rewrite the code.
 
+I am looking forward to learning more about react and in particular react native to build powerful and flexible apps.
 
 ## Screenshots
+![Homescreen](src/assets/images/homescreen.png)
 
 
+## Links
 
-## Demo Video
+[Github Repo](https://github.com/TorySnopl/react_portfolio)
 
+[Deployed App](https://torysnopl.github.io/react_portfolio/)
 
 ## Source Code
+
+No source code was provided by U of O coding Bootcamp.
 
 
 ## Author
