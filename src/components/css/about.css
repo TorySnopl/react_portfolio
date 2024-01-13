@@ -1,0 +1,40 @@
+
+
+.aboutPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+img {
+    border-radius: 25%;
+    max-width: 200px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+#aboutMe {
+    max-width: 600px;
+    text-align: left;
+}
+
+.name {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.aboutMeP1,
+.aboutMeP2,
+.aboutMeP3,
+.aboutMeP4,
+.aboutMeP5,
+.aboutMeP6 {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+
+

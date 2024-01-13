@@ -10,7 +10,8 @@ import '../css/contact.css';
 
     emailjs.sendForm('service_9fwzcnj', 'template_li8ti1b', form.current, '8FbMBdRTc6rU6tdbJ')
       .then((result) => {
-          console.log(result.text);
+          console.log(result);
+          window.location.reload();
       }, (error) => {
           console.log(error.text);
       });

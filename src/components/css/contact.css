@@ -1,8 +1,9 @@
 
 
 form {
-    max-width: 400px;
+    max-width: 800px;
     margin: 0 auto;
+    margin-top: 80px;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -12,12 +13,13 @@ form {
 label {
     display: block;
     margin-bottom: 5px;
-    color: #333;
+    color: #fffbfb;
 }
 
 input,
 textarea {
     width: 100%;
+    text-align: center;
     padding: 8px;
     margin-bottom: 10px;
     border: 1px solid #ddd;
