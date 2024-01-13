@@ -1,6 +1,5 @@
 import aiPic from '../../assets/images/ai_pic.jpeg';
 import '../css/about.css';
-import '../../../node_modules/picnic/picnic.min.css';
 
 export default function About() {
     return (

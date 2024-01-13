@@ -1,9 +1,6 @@
 
 import { Link } from 'react-scroll';
-import About from './About';
-import Contact from './Contact';
-import Resume from './Resume';
-import Portfolio from './Portfolio';
+import '../css/nav.css';
 
 
 const Nav = ({ onPageChange }) => {

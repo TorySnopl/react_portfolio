@@ -1,4 +1,5 @@
 import React from "react";
+import '../css/resume.css';
 
 const Resume = () => {
     const resumePdf = '../../src/assets/docs/dev-res.pdf';

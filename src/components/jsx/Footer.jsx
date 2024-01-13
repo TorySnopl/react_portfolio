@@ -1,6 +1,7 @@
 import linkedImg from '../../assets/images/linkedIn.png';
 import githubImg from '../../assets/images/github.png';
 import edabitImg from '../../assets/images/edabit.png';
+import '../css/footer.css';
 
 export default function Footer(){
     return (

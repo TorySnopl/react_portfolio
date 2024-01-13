@@ -1,0 +1,33 @@
+
+
+.nav {
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navLink {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    margin: 0 15px;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.navLink:hover {
+    color: #007bff; 
+}
+
+.active {
+    color: #007bff; 
+}
